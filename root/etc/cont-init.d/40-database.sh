@@ -1,4 +1,3 @@
-
 #!/usr/bin/with-contenv sh
 
 if [ "$(grep postgresql-hostname /config/guacamole/guacamole.properties | wc -l)" -eq 0 ]; then
